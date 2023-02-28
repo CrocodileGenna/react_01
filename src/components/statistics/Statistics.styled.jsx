@@ -36,26 +36,24 @@ export const OneIndex = styled.li`
   justify-content: center;
   width: 100%;
 
-  background-color: ${props => {
-    switch (props.label) {
-      case '.docx':
-        return '#62ff45d1';
-      case '.pdf':
-        return '#e2ff45d1';
-      case '.mp3':
-        return '#f92c3fd1';
-      case '.psd':
-        return '#542cf3d1';
-    }
-  }};
-
   &:hover,
   &:focus {
     cursor: pointer;
     background-color: #00000030;
   }
 `;
-
+//  background-color: ${props => {
+//     switch (props.label) {
+//       case '.docx':
+//         return '#62ff45d1';
+//       case '.pdf':
+//         return '#e2ff45d1';
+//       case '.mp3':
+//         return '#f92c3fd1';
+//       case '.psd':
+//         return '#542cf3d1';
+//     }
+//   }};
 export const Label = styled.span`
   font-size: 14px;
 `;

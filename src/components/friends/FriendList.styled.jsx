@@ -1,4 +1,4 @@
-import styled from "@emotion/styled";
+import styled from '@emotion/styled';
 
 export const Section = styled.section`
   display: flex;
@@ -36,17 +36,15 @@ export const OnlineSpan = styled.span`
   width: 10px;
   height: 10px;
   border-radius: 50%;
-
-  background-color: ${({ online }) => {
-    switch (online) {
-      case true:
-        return "red";
-      case false:
-        return "green";
-    }
-  }};
 `;
-
+// background-color: ${({ online }) => {
+//     switch (online) {
+//       case true:
+//         return 'red';
+//       case false:
+//         return 'green';
+//     }
+//   }};
 export const PhotoFriend = styled.img`
   width: 40px;
 `;

@@ -1,5 +1,5 @@
 import styled from '@emotion/styled';
-import 'modern-normalize';
+// import 'modern-normalize';
 
 export const GlobalStyle = styled.div`
   body {

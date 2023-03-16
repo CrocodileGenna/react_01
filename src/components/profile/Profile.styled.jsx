@@ -1,4 +1,4 @@
-import styled from "@emotion/styled";
+import styled from '@emotion/styled';
 
 export const ProfileCard = styled.div`
   position: relative;
@@ -11,6 +11,7 @@ export const ProfileCard = styled.div`
   padding: 10px;
   border-radius: 4px;
   box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.25);
+  transition: all 0.4s ease 0s;
 
   &:hover,
   &:focus {
@@ -31,7 +32,7 @@ export const PhotoInCard = styled.img`
   margin-top: 18px;
   width: 130px;
   box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.15);
-  transition: all 0.3 ease 0s;
+  transition: all 0.4s ease 0s;
 
   &:hover,
   &:focus {

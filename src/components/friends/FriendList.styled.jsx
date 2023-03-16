@@ -22,6 +22,7 @@ export const CardFriend = styled.li`
   height: 50px;
   background-color: #0000000a;
   box-shadow: 5px 5px 5px 2px rgb(0 0 0 / 15%);
+  transition: all 0.4s ease 0s;
 
   &:hover,
   &:focus {
@@ -36,15 +37,19 @@ export const OnlineSpan = styled.span`
   width: 10px;
   height: 10px;
   border-radius: 50%;
+
+  background-color: ${({ online }) => {
+    switch (online) {
+      case true:
+        return 'red';
+      case false:
+        return 'green';
+      default:
+        return;
+    }
+  }};
 `;
-// background-color: ${({ online }) => {
-//     switch (online) {
-//       case true:
-//         return 'red';
-//       case false:
-//         return 'green';
-//     }
-//   }};
+
 export const PhotoFriend = styled.img`
   width: 40px;
 `;

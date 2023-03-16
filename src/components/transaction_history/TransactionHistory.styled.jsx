@@ -19,6 +19,8 @@ export const TableBody = styled.tbody`
 `;
 
 export const TableList = styled.tr`
+  transition: all 0.4s ease 0s;
+
   &:nth-of-type(even) {
     background-color: #00000021;
   }

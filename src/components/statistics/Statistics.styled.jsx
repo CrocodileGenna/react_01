@@ -10,7 +10,7 @@ export const Section = styled.section`
   margin: 10px auto;
   border-radius: 4px;
 
-  outline: 1px solid #00000017;
+  outline: 1px solid #00000040;
 `;
 
 export const TittleStats = styled.h2`

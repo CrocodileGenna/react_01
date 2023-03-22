@@ -21,14 +21,14 @@ export const CardFriend = styled.li`
   width: 130px;
   height: 50px;
   background-color: #0000000a;
-  box-shadow: 5px 5px 5px 2px rgb(0 0 0 / 15%);
+  box-shadow: 0px 0px 5px 0px rgb(0 0 0 / 25%);
   transition: all 0.4s ease 0s;
 
   &:hover,
   &:focus {
     cursor: pointer;
-    background-color: #1e25ff21;
-    box-shadow: 7px 7px 7px 3px rgb(0 0 0 / 20%);
+    background-color: #1e25ff15;
+    box-shadow: 0px 0px 5px 0px rgb(0 0 0 / 40%);
   }
 `;
 

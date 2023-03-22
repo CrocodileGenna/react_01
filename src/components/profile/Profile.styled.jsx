@@ -10,14 +10,26 @@ export const ProfileCard = styled.div`
   margin: 10px auto;
   padding: 10px;
   border-radius: 4px;
-  box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.25);
+  background: rgb(0, 0, 0);
+  background: linear-gradient(
+    0deg,
+    rgba(0, 0, 0, 0.12) 20%,
+    rgba(255, 255, 255, 1) 100%
+  );
+  box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.4);
+
   transition: all 0.4s ease 0s;
 
   &:hover,
   &:focus {
     cursor: pointer;
-    background-color: #ff676712;
-    box-shadow: 0px 0px 12px 6px rgba(0, 0, 0, 0.35);
+    box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.9);
+    background: rgb(0, 34, 200);
+    background: linear-gradient(
+      0deg,
+      rgba(0, 34, 200, 0.11808473389355745) 40%,
+      rgba(255, 255, 255, 1) 100%
+    );
   }
 `;
 
@@ -28,16 +40,8 @@ export const Description = styled.div`
 `;
 
 export const PhotoInCard = styled.img`
-  border-radius: 50%;
   margin-top: 18px;
   width: 130px;
-  box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.15);
-  transition: all 0.4s ease 0s;
-
-  &:hover,
-  &:focus {
-    box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.25);
-  }
 `;
 
 export const UserName = styled.p`
